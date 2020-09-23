@@ -14,62 +14,28 @@ python3 selenium squoosh(网页版) 批量压缩图片
 <img src="https://img2020.cnblogs.com/blog/1011634/202009/1011634-20200923205316536-1982696890.png" width = "90%" height = "90%" alt="图片名称" />
 - 运行代码，下面的是输出日志<br>
 ```shell
-macname@MacdeMBP case %
-macname@MacdeMBP case % python3 compress_pic.py
-本次任务共有2个.
-开始处理------->1/2----------->test1
-1/1/2-------------------->test1
-还没有出现结束标志---
-Message: no such element: Unable to locate element: {"method":"xpath","selector":".//div[@class="hc73a"]/span/span"}
-  (Session info: chrome=85.0.4183.121)
+macname@MacdeMacBook-Pro Interface-automation-test % ./run.sh 
+host: default host
+task id: not specific, so all case will be test
+Service URL: https://baike.baidu.com
+======================================================== test session starts ========================================================
+platform darwin -- Python 3.6.3, pytest-5.1.0, py-1.8.0, pluggy-0.12.0
+rootdir: /Users/macname/Desktop/interface_automation/Interface-automation-test/case
+plugins: allure-pytest-2.7.1
+collected 8 items                                                                                                                   
 
-还没有出现结束标志---
-Message: no such element: Unable to locate element: {"method":"xpath","selector":".//div[@class="hc73a"]/span/span"}
-  (Session info: chrome=85.0.4183.121)
+test_HY-112.py .                                                                                                              [ 12%]
+test_HY-174_189.py .                                                                                                          [ 25%]
+test_HY-218.py .                                                                                                              [ 37%]
+test_HY-34.py .                                                                                                               [ 50%]
+test_HY-380.py .                                                                                                              [ 62%]
+test_HY-50.py .                                                                                                               [ 75%]
+test_HY-55.py .                                                                                                               [ 87%]
+test_HY-66.py .                                                                                                               [100%]
 
-13% smaller
-转换完成---
-50
-27.4
-3
-1.71
-2/1/2-------------------->test1
-72% smaller
-转换完成---
-50
-31.6
-3
-1.85
-3/1/2-------------------->test1
-67% smaller
-转换完成---
-50
-17.4
-3
-1.43
-开始处理------->2/2----------->test2
-1/2/2-------------------->test2
-59% smaller
-转换完成---
-50
-20.2
-3
-1.47
-2/2/2-------------------->test2
-26% smaller
-转换完成---
-50
-30.9
-3
-1.86
-3/2/2-------------------->test2
-14% smaller
-转换完成---
-50
-27.2
-3
-1.94
-macname@MacdeMBP case % 
+========================================================= 8 passed in 0.79s =========================================================
+Report successfully generated to ../html
+macname@MacdeMacBook-Pro Interface-automation-test % 
 ```
 - 压缩过程视频链接（https://v.kuaishou.com/60ZJzZ）
 <br>
