@@ -9,23 +9,24 @@ python3 selenium squoosh(网页版) 批量压缩图片
 - 下载项目
 ```git clone git@github.com:fusu192/Batch-image-compression.git```
 - 切换目录
-<br>```cd Batch-image-compression```
+<br>```cd Batch-image-compression```<br>
 工作目录结构，目标文件夹pic中有两个相册，每个相册中有3张图片，我们需要压缩所有相册里面的图片
 <img src="https://img2020.cnblogs.com/blog/1011634/202009/1011634-20200923205316536-1982696890.png" width = "90%" height = "90%" alt="图片名称" />
 - 运行代码，下面的是输出日志<br>
 ```shell
+macname@MacdeMBP case %
 macname@MacdeMBP case % python3 compress_pic.py
 本次任务共有2个.
 开始处理------->1/2----------->test1
 1/1/2-------------------->test1
 还没有出现结束标志---
 Message: no such element: Unable to locate element: {"method":"xpath","selector":".//div[@class="hc73a"]/span/span"}
-  (Session info: chrome=85.0.4183.121)
- 
+  (Session info: chrome=85.0.4183.121)
+
 还没有出现结束标志---
 Message: no such element: Unable to locate element: {"method":"xpath","selector":".//div[@class="hc73a"]/span/span"}
-  (Session info: chrome=85.0.4183.121)
- 
+  (Session info: chrome=85.0.4183.121)
+
 13% smaller
 转换完成---
 50
@@ -68,7 +69,7 @@ Message: no such element: Unable to locate element: {"method":"xpath","selector"
 27.2
 3
 1.94
-macname@MacdeMBP case %
+macname@MacdeMBP case % 
 ```
 - 压缩过程视频链接（https://v.kuaishou.com/60ZJzZ）
 <br>
