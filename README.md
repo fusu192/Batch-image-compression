@@ -5,4 +5,4 @@ python3 selenium squoosh(网页版) 批量压缩图片
 - 笔者运行环境为：mac，python3.6，selenium3.141.0
 
 # 使用方法
-- 具体可参考以下博客（点击跳转）
+- 具体可参考以下博客（https://www.cnblogs.com/sea-stream/p/13721105.html）
