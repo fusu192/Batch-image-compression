@@ -7,12 +7,12 @@ python3 selenium squoosh(网页版) 批量压缩图片
 # 使用方法
 - 安装好selenium环境以及python3环境
 - 下载项目
-<br>```git clone git@github.com:fusu192/Batch-image-compression.git```
+```git clone git@github.com:fusu192/Batch-image-compression.git```
 - 切换目录
 <br>```cd Batch-image-compression```
 工作目录结构，目标文件夹pic中有两个相册，每个相册中有3张图片，我们需要压缩所有相册里面的图片
 <img src="https://img2020.cnblogs.com/blog/1011634/202009/1011634-20200923205316536-1982696890.png" width = "90%" height = "90%" alt="图片名称" />
-- 运行代码，下面的是输出日志
+- 运行代码，下面的是输出日志<br>
 ```shell
 macname@MacdeMBP case % python3 compress_pic.py
 本次任务共有2个.
