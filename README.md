@@ -15,5 +15,5 @@ python3 selenium squoosh(网页版) 批量压缩图片
 - 运行代码<br>
 ```python3 compress_pic.py```
 <br><br>
-- 压缩过程视频链接<br>（https://v.kuaishou.com/60ZJzZ）
+- 压缩过程视频链接<br>（https://github.com/fusu192/Batch-image-compression/blob/master/6cf91a644c2f0edc79d8d7cdcd3b4acc.gif）
 - 具体步骤可参考以下博客<br>（https://www.cnblogs.com/sea-stream/p/13721105.html）
